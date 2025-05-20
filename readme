@@ -1,0 +1,4 @@
+this is a simple program i made for debugging purposes. a common technique is to insert an std::cout << "here\n"; in the code, and if it doesnt print, then the code broke before then. if it does print, then the code made it at least to that point. you can use it to determine where exactly the code breaks and figure out why. its also common in the same std::cout to print the value of a variable, which can give you further information. the thing i didnt like about this technique is that printing the output of several variables at a time is tedious and messy. for example:
+std::cout << "\n" << string_one << "\n" << string_two << "\n" << std::to_string (i) << "\n";
+the purpose of this program is to turn that into this:
+std::cout << here (string_one, string_two, i);
