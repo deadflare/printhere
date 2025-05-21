@@ -3,7 +3,7 @@ debugging print utility
 
 ### description:
 
-this is a simple program for debugging purposes. a common, rudimentary troubleshooting technique is to insert an std::cout << "here\n"; in the code, and if it doesnt print, then you know the code broke before then. if it does print, then it ran at least up to that point. you can use that to determine where exactly the code breaks. its also common in the same std::cout to print the value of a variable, which can provide further information.
+this is a simple program for debugging purposes. a common, rudimentary troubleshooting technique is to insert an `std::cout << "here\n";` in the code, and if it doesnt print, then you know the code broke before then. if it does print, then it ran at least up to that point. you can use that to determine where exactly the code breaks. its also common in the same std::cout to print the value of a variable, which can provide further information.
 
 the thing i dont like about this technique is that printing the output of several variables at a time is tedious and messy. for example:
 
