@@ -15,7 +15,7 @@ the purpose of this program is to turn that into this:
 
 ### usage:
 
-##### setting up:
+#### setting up:
 
 copy 'here.h' into your project directory
 
@@ -23,7 +23,7 @@ copy 'here.h' into your project directory
 
  
 
-##### function usage:
+#### function usage:
 
 call the function wherever you want to test for:
 
