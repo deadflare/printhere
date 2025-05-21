@@ -7,11 +7,11 @@ this is a simple program for debugging purposes. a common, rudimentary troublesh
 
 the thing i dont like about this technique is that printing the output of several variables at a time is tedious and messy. for example:
 
-std::cout << "\n" << string_one << "\n" << string_two << "\n" << std::to_string (i) << "\n";
+`std::cout << "\n" << string_one << "\n" << string_two << "\n" << std::to_string (i) << "\n";`
 
 the purpose of this program is to turn that into this:
 
-std::cout << here (string_one, string_two, i);
+`std::cout << here (string_one, string_two, i);`
 
 ### usage:
 
@@ -19,7 +19,7 @@ setting up:
 
 copy 'here.h' into your project directory
 
-#include "here.h"
+`#include "here.h"`
 
  
 
@@ -27,7 +27,7 @@ function usage:
 
 call the function wherever you want to test for:
 
-std::cout << here (variables);
+`std::cout << here (variables);`
 
 the function doesnt print anything itself, it just returns the string to be printed, so an std::cout is needed
 
