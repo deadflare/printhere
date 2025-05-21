@@ -20,8 +20,9 @@ setting up:
 copy 'here.h' into your project directory
 
 #include "here.h"
-
  
+
+  
 function usage:
 
 call the function wherever you want to test for:
