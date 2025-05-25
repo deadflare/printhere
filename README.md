@@ -3,7 +3,7 @@ debugging print utility
 
 ### description:
 
-this is a small program for debugging purposes. a common, rudimentary troubleshooting technique is to insert an `std::cout << "here\n";` in the code, and if it prints, then you know the code ran at least up to that point. if it doesnt print, then you know the code broke before then. determining where exactly the code breaks can show you what went wrong. its also common in the same std::cout to print the value of a variable, which can provide further information.
+this is a small program for debugging purposes. a common, rudimentary troubleshooting technique is to insert an `std::cout << "here\n";` in the code, and if it prints, then you know the code ran at least up to that point. if it doesnt print, the code broke before then. determining where exactly the code breaks can show you what went wrong. its also common in the same std::cout to print the value of a variable, which can provide further information.
 
 the thing i dont like about this technique is that printing the output of several variables at a time is tedious and messy. for example:
 
@@ -33,9 +33,7 @@ the function doesnt print anything itself, it just returns the string to be prin
 
 can enter any number of variables separated by comma to be printed
 
-works with data types that can be printed with std::cout, and converted with std::to_string
-
-data types include string, char, int, float, double, etc
+works with the common data types: int, string, char, bool, float, etc
 
 ### files:
 
