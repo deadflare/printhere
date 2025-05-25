@@ -45,7 +45,7 @@ main.cpp is an example to demonstrate usage
 
 ### examples with output:
 
-`int x = 1; int y = 2`
+`int x = 1; int y = 2;`
 
 `std::cout << here();`
 
