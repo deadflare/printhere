@@ -31,7 +31,7 @@ call the function wherever you want to test for:
 
 the function doesnt print anything itself, it just returns the string to be printed, so an std::cout is needed
 
-can enter any number of variables separated by comma to be printed
+can enter any number of variables separated by comma to be printed. if no variables are entered, only output will be "here"
 
 can also enter direct strings, such as variable names
 
@@ -42,3 +42,27 @@ works with the common data types: int, string, char, bool, float, etc
 here.h contains the function used. this is the only file needed to use the program
 
 main.cpp is an example to demonstrate usage
+
+### examples with output:
+
+`int x = 1; int y = 2`
+
+`std::cout << here();`
+
+here
+
+`std::cout << here (x);`
+
+here
+
+int = 1
+
+`std::cout << here ("x", x, "y", y);`
+
+x
+
+int = 1
+
+y
+
+int = 2
