@@ -33,6 +33,8 @@ the function doesnt print anything itself, it just returns the string to be prin
 
 can enter any number of variables separated by comma to be printed
 
+can also enter direct strings, such as variable names
+
 works with the common data types: int, string, char, bool, float, etc
 
 ### files:
