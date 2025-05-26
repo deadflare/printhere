@@ -35,7 +35,7 @@ can enter any number of variables separated by comma to be printed. if no variab
 
 can also enter direct strings, such as variable names
 
-works with the common data types: int, string, char, bool, float, etc
+supports variables of the common data types: int, string, char, bool, float, etc
 
 ### files:
 
@@ -58,6 +58,8 @@ here
 int = 1
 
 `std::cout << here ("x", x, "y", y);`
+
+here
 
 x
 
